@@ -99,16 +99,35 @@ Banner section
 /* ----------
 main section start
 -------------- */
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* --------------
 about section
 ------------------ */
 .about{
-    margin: 130px;
-    padding: 130px;
+    margin: 80px;
+    padding: 130px 130px;
     border-radius: 10px;
     background: #FFF8F3;
 }
-
-
+.about-info-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    margin: 100px 35px 0 35px;
+    font-size: 20px;
+    color: #474747;
+    font-weight: 400;
+}
+.info-description{
+    font-size: 20;
+    font-weight: 700;
+    color: #181818;
+}
